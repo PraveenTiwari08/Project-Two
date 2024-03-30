@@ -1,0 +1,224 @@
+.custom-image{
+  width: 100%; /* Set the width to 1300 pixels */
+  height: 520px; /* Set the height to 920 pixels */
+  /* Optionally, you can also use max-width and max-height to ensure responsiveness */
+  max-width: 100%;
+  height: auto;
+}
+
+#carouselExampleCaptions {
+  height: 50%;
+}
+
+.fou{
+  height: 200px;
+  margin-top: 50px;
+  width: 400px;
+  margin-bottom: 50px;
+}
+
+.secondsection{
+  margin-bottom: 50px
+}
+
+.thirdsection{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+.coll{
+  width: 400px;
+  height: 400px;
+}
+
+.box {
+  height: 180px; /* Adjust height as needed */
+  text-align: center;
+  line-height: 200px; /* Centers the text vertically */
+  transition: all 0.3s ease;
+}
+.box:hover {
+  transform: scale(1.0); /* Increase scale by 10% on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow on hover */
+}
+
+
+.coll1{
+  background-color: #E9F7EF; /* Light green background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: all 0.3s ease; /* Transition for all properties over 0.3s with ease */
+  margin-bottom: 20px;
+}
+
+.coll2{
+  background-color: #dbf8e7;
+  border-radius: 20px;
+}
+
+.coll1:hover {
+  transform: translateY(-5px); /* Move the div up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.coll1 h4{
+  color: #4CAF50; /* Green text color */
+  margin-bottom: 10px; /* Add space below the heading */
+  margin-top: 25px;
+}
+
+.coll1 p {
+  color: #333; /* Dark text color */
+  font-size: 16px;
+  line-height: 1.6;
+}
+.coll1 h6{
+  color: #4CAF50; /* Green text color */
+  margin-bottom: 10px;
+}
+
+.collimg{
+  width: 100px;
+  margin-top: -40px;
+}
+
+.box1 h6{
+  margin-top: -80px;
+  color:  #4CAF50
+}
+
+.box2 h6{
+  margin-top: -80px;
+  color: #4CAF50
+}
+.box3 h6{
+  margin-top: -80px;
+  color: #4CAF50
+}
+.box4 h6{
+  margin-top: -80px;
+  color: #4CAF50
+}
+
+.box11{
+  width: 350px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left:10px ;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: all 0.3s ease; 
+  
+}
+
+.coll3{
+  background-color: #bdfdd8;
+  border-radius: 20px;
+}
+
+.box11 h4{
+  color: #4CAF50;
+}
+.box11 img{
+  margin-top: 10px;
+}
+
+.box11 p{
+  width: 320px;
+  margin-left: 12px;
+}
+
+
+
+.box11:hover {
+  transform: translateY(-5px); /* Move the div up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.fourthsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust height as needed */
+  width: 80%;
+  margin-left: 9%;
+  gap: 10px;
+}
+
+.foursec2{
+  width: 300%;
+}
+
+.foursec {
+  background-color: #d8f2f2; /* Light green background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(14, 14, 14, 0.1); /* Soft shadow */
+  transition: all 0.3s ease; /* Transition for all properties over 0.3s with ease */
+  margin: 10px; /* Add margin between elements */
+}
+
+.foursec:hover {
+  transform: scale(1.1); /* Increase scale by 5% on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.foursec h4 {
+  color: #4CAF50; /* Green text color */
+  margin-bottom: 10px; /* Add space below the heading */
+}
+
+.foursec p {
+  color: #333; /* Dark text color */
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.collimg1{
+  width: 100px;
+}
+
+.fifthsection{
+  margin-top: 10%;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.card{
+ width: 100px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight drop shadow effect */
+  transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+  width: 21rem; /* Set card width */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.btn-cta {
+  transition: all 0.3s ease; /* Smooth transition for button */
+}
+
+.btn-cta:hover {
+  transform: scale(1.1); /* Increase scale by 10% on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow effect on hover */
+}
+
+.footerlast{
+  width: 1356px;
+  height: 246px;
+
+}
+
+.nav-item a{
+  color: blue;
+}
+
